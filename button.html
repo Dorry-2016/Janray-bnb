@@ -1,41 +1,73 @@
-
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Green */
+.Home {
+  color: green;
+}
+
+.Home:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Blue */
+.About {
+  color: dodgerblue;
+}
+
+.About:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.Prices {
+  color: orange;
+}
+
+.Prices:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.Rooms {
+  color: red;
+}
+
+.Rooms:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Gray */
+.Contact {
+  color: black;
+}
+
+.Contact:hover {
+  background: #e7e7e7;
+}
+</style>
 </head>
-<body>  
+<body>
+<button class="btn Home"onclick="location.href='home.html'">Home</button>
+<button class="btn About" onclick="location.href='about.html'">About</button>
+<button class="btn Prices"onclick="location.href='prices.html'">Prices</button>
+<button class="btn Rooms"onclick="location.href='rooms.html'">Rooms</button>
+<button class="btn Contact"onclick="location.href='contact.html'">Contact</button>
+
 </body>
 </html>
-<nav>
-<a href="/Home/">HOME</a> |
-<a href="/About/">ABOUT</a> |
-<a href="/Contacts/"> Contacts</a> |
-<a href="/location/">location</a>
-</nav>
- <head>
-        <style>
-            nav{
-                background:gray;
-                width: 360px;
-                display: flex;
-                justify-content: space-between;
-                padding: 10px;
-                border: 20px;
-                border-radius: 25px;
-                align-items:center;
-            }
-            nav> a{
-                color: black;
-                padding: 8px 16px;
-                border-radius: 22px;
-            }
-            nav>a:hover{
-                background:white;
-            }
-            
-        </style>
-
-    </head>
